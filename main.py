@@ -39,4 +39,4 @@ async def on_message(message):
         os.remove("out.mp3")
         os.remove("sound.mp3")
 
-client.run("ODU2ODAzOTI2NzMxNzg0MTky.YNGW1g.Z2vV5LtL-agn06zrt17ffu63_Fs")
+client.run("YOUR_TOKEN")
