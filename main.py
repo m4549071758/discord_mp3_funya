@@ -26,8 +26,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.author.bot:
-        pass
-
+        return
     if "/funya" in message.content.split():
         file = message.attachments[0]
 
